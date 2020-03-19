@@ -1,0 +1,18 @@
+.switchRowWrapper {
+  width: 386px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+
+.switchRowContent {
+  margin: 0 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  line-height: 25px;
+}

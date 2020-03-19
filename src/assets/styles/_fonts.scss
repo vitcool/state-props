@@ -1,0 +1,15 @@
+@font-face {
+  font-display: block;
+  font-family: "AvenirNext";
+  font-weight: 400;
+  src: local("AvenirNext-Regular"), url("../_fonts/AvenirNextLTPro-Regular.otf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-display: block;
+  font-family: "AvenirNext";
+  font-weight: bold;
+  src: local("AvenirNext-Bold"), url("../_fonts/AvenirNextLTPro-Bold.otf") format("truetype");
+  font-style: normal;
+}

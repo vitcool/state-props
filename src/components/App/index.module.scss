@@ -1,0 +1,10 @@
+@import '../../assets/styles/global/variables';
+
+.app {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $mercury;
+}

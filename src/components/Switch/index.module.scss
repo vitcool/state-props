@@ -1,0 +1,50 @@
+@import '../../assets/styles/global/variables';
+
+.reactSwitchCheckbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+
+  &:checked + .reactSwitchLabel .reactSwitchButton {
+    left: 95%;
+    transform: translateX(-100%);
+  }
+}
+
+.reactSwitchLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 47px;
+  height: 25px;
+  background-color: $curiousBlue;
+
+  border-radius: 47px;
+  position: relative;
+  transition: background-color 0.5s;
+  -webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.75);
+
+  & .reactSwitchButton {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 19px;
+    height: 19px;
+    border-radius: 19px;
+    transition: 0.5s;
+    background: $white;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  }
+}
+
+.isNotSelected {
+  background: $mercury;
+}
+
+.wrapper {
+  display: flex;
+}
